@@ -8,7 +8,7 @@ import NetworkSwitcher from './NetworkSwitcher';
 import NavElement from './nav-element';
 
 const WalletMultiButtonDynamic = dynamic(
-  async () => (await import('@solana/wallet-adapter-react-ui')).WalletMultiButton,
+  async () => (await import('@trezoa/wallet-adapter-react-ui')).WalletMultiButton,
   { ssr: false }
 );
 

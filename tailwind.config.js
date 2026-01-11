@@ -14,7 +14,7 @@ module.exports = {
     // TODO: Theme needs works
     themes: [
       {
-        'solana': { 
+        'trezoa': { 
           fontFamily: {
             display: ['PT Mono, monospace'],
             body: ['Inter, sans-serif'],

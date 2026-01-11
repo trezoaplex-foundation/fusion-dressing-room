@@ -4,7 +4,7 @@ import { FC, useEffect, useState } from 'react';
 import Link from 'next/link';
 
 // Wallet
-import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { useWallet, useConnection } from '@trezoa/wallet-adapter-react';
 
 // Components
 import Stack from '@mui/material/Stack';
@@ -14,8 +14,8 @@ import useUserSOLBalanceStore from '../../stores/useUserSOLBalanceStore';
 import useUserNFTsStore from '../../stores/useUserNFTsStore';
 import { findTriflePda, createTrifleAccount, getConstraintModel, fuseTraits, getTrifleNfts, defuseTraits } from '../../utils/trifle';
 import { Collection } from 'components/Collection';
-import { Nft, NftWithToken, PublicKey, Sft, SftWithToken } from '@metaplex-foundation/js';
-import { EscrowConstraintModel, Trifle } from '@metaplex-foundation/mpl-trifle';
+import { Nft, NftWithToken, PublicKey, Sft, SftWithToken } from '@trezoaplex-foundation/js';
+import { EscrowConstraintModel, Trifle } from '@trezoaplex-foundation/tpl-trifle';
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import { Preview } from 'components/Preview';
 import { useInterval } from 'usehooks-ts';

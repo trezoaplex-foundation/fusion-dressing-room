@@ -1,5 +1,5 @@
-import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { Keypair, SystemProgram, TransactionMessage, TransactionSignature, VersionedTransaction } from '@solana/web3.js';
+import { useConnection, useWallet } from '@trezoa/wallet-adapter-react';
+import { Keypair, SystemProgram, TransactionMessage, TransactionSignature, VersionedTransaction } from '@trezoa/web3.js';
 import { FC, useCallback } from 'react';
 import { notify } from "../utils/notifications";
 

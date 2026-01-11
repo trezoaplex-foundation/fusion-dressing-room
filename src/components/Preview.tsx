@@ -1,4 +1,4 @@
-import { Nft, NftWithToken, Sft, SftWithToken } from '@metaplex-foundation/js';
+import { Nft, NftWithToken, Sft, SftWithToken } from '@trezoaplex-foundation/js';
 import { Button, Stack } from '@mui/material';
 import { FC, useEffect, useRef, useState } from 'react';
 

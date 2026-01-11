@@ -6,10 +6,10 @@ const Fusion: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>Trezoa Scaffold</title>
         <meta
           name="description"
-          content="Solana Scaffold"
+          content="Trezoa Scaffold"
         />
       </Head>
       <FusionView />

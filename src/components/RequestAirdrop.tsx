@@ -1,5 +1,5 @@
-import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { LAMPORTS_PER_SOL, TransactionSignature } from '@solana/web3.js';
+import { useConnection, useWallet } from '@trezoa/wallet-adapter-react';
+import { LAMPORTS_PER_TRZ, TransactionSignature } from '@trezoa/web3.js';
 import { FC, useCallback } from 'react';
 import { notify } from "../utils/notifications";
 import useUserSOLBalanceStore from '../stores/useUserSOLBalanceStore';
@@ -19,7 +19,7 @@ export const RequestAirdrop: FC = () => {
         let signature: TransactionSignature = '';
 
         try {
-            signature = await connection.requestAirdrop(publicKey, LAMPORTS_PER_SOL);
+            signature = await connection.requestAirdrop(publicKey, LAMPORTS_PER_TRZ);
 
             // Get the lates block hash to use on our transaction and confirmation
             let latestBlockhash = await connection.getLatestBlockhash()

@@ -1,9 +1,9 @@
-import { Connection, PublicKey, SYSVAR_INSTRUCTIONS_PUBKEY, Transaction, TransactionInstruction, TransactionMessage, VersionedTransaction } from "@solana/web3.js";
-import { PROGRAM_ADDRESS as TRIFLE_PROGRAM_ADDRESS, createCreateTrifleAccountInstruction, EscrowConstraintModel, Trifle, createTransferInInstruction, createTransferOutInstruction } from '@metaplex-foundation/mpl-trifle';
-import { PROGRAM_ADDRESS as TOKEN_METADATA_PROGRAM_ADDRESS } from '@metaplex-foundation/mpl-token-metadata';
-import { Metaplex, Nft, NftWithToken, Sft, SftWithToken } from "@metaplex-foundation/js";
-import { WalletContextState } from "@solana/wallet-adapter-react";
-import { getAssociatedTokenAddress, TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddressSync } from "@solana/spl-token";
+import { Connection, PublicKey, SYSVAR_INSTRUCTIONS_PUBKEY, Transaction, TransactionInstruction, TransactionMessage, VersionedTransaction } from "@trezoa/web3.js";
+import { PROGRAM_ADDRESS as TRIFLE_PROGRAM_ADDRESS, createCreateTrifleAccountInstruction, EscrowConstraintModel, Trifle, createTransferInInstruction, createTransferOutInstruction } from '@trezoaplex-foundation/tpl-trifle';
+import { PROGRAM_ADDRESS as TOKEN_METADATA_PROGRAM_ADDRESS } from '@trezoaplex-foundation/tpl-token-metadata';
+import { Trezoaplex, Nft, NftWithToken, Sft, SftWithToken } from "@trezoaplex-foundation/js";
+import { WalletContextState } from "@trezoa/wallet-adapter-react";
+import { getAssociatedTokenAddress, TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddressSync } from "@trezoa/tpl-token";
 
 export const findTriflePda = (
     mint: PublicKey,
@@ -139,7 +139,7 @@ export const getTrifle = async (connection: Connection, mintAddress: PublicKey, 
 }
 
 export const getTrifleNfts = async (connection: Connection, trifle: Trifle) => {
-    const metaplex = new Metaplex(connection);
+    const metaplex = new Trezoaplex(connection);
     const fusedTraits = Array.from(trifle.tokens.values()).map((tokenAmount) => tokenAmount.map((token) => token.mint)).flat();
     let nfts: (NftWithToken | SftWithToken)[] = [];
     for (const fusedTrait of fusedTraits) {

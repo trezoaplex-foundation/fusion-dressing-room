@@ -6,7 +6,7 @@ import {
 } from '@heroicons/react/outline'
 import { XIcon } from '@heroicons/react/solid'
 import useNotificationStore from '../stores/useNotificationStore'
-import { useConnection } from '@solana/wallet-adapter-react';
+import { useConnection } from '@trezoa/wallet-adapter-react';
 import { getExplorerUrl } from '../utils/explorer'
 import { useNetworkConfiguration } from 'contexts/NetworkConfigurationProvider';
 
@@ -88,7 +88,7 @@ const Notification = ({ type, message, description, txid, onHide }) => {
               <div className="flex flex-row">
          
                 <a
-                  href={'https://explorer.solana.com/tx/' + txid + `?cluster=${networkConfiguration}`}
+                  href={'https://explorer.trezoa.com/tx/' + txid + `?cluster=${networkConfiguration}`}
                   target="_blank"
                   rel="noreferrer"
                   className="flex flex-row link link-accent"

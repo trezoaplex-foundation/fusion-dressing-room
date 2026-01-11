@@ -1,4 +1,4 @@
-import { PublicKey, Transaction } from '@solana/web3.js'
+import { PublicKey, Transaction } from '@trezoa/web3.js'
 import base58 from 'bs58'
 
 export function getExplorerUrl(
@@ -12,12 +12,12 @@ export function getExplorerUrl(
         cluster = `custom&customUrl=${encodeURIComponent(
           'http://127.0.0.1:8899'
         )}`
-      } else if (endpoint === 'https://api.devnet.solana.com') {
+      } else if (endpoint === 'https://api.devnet.trezoa.com') {
         cluster = 'devnet'
       }
   
       return cluster ? `?cluster=${cluster}` : ''
     }
   
-    return `https://explorer.solana.com/${itemType}/${viewTypeOrItemAddress}${getClusterUrlParam()}`
+    return `https://explorer.trezoa.com/${itemType}/${viewTypeOrItemAddress}${getClusterUrlParam()}`
   }

@@ -1,7 +1,7 @@
 
-# Solana dApp Scaffold Next
+# Trezoa dApp Scaffold Next
 
-The Solana dApp Scaffold repos are meant to house good starting scaffolds for ecosystem developers to get up and running quickly with a front end client UI that integrates several common features found in dApps with some basic usage examples. Wallet Integration. State management. Components examples. Notifications. Setup recommendations.
+The Trezoa dApp Scaffold repos are meant to house good starting scaffolds for ecosystem developers to get up and running quickly with a front end client UI that integrates several common features found in dApps with some basic usage exatples. Wallet Integration. State management. Components exatples. Notifications. Setup recommendations.
 
 Responsive                     |  Desktop
 :-------------------------:|:-------------------------:
@@ -11,7 +11,7 @@ Responsive                     |  Desktop
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The responsive version for wallets and wallet adapter may not function or work as expected for mobile based on plugin and wallet compatibility. For more code examples and implementations please visit the [Solana Cookbook](https://solanacookbook.com/)
+The responsive version for wallets and wallet adapter may not function or work as expected for mobile based on plugin and wallet compatibility. For more code exatples and itplementations please visit the [Trezoa Cookbook](https://trezoacookbook.com/)
 
 ## Installation
 
@@ -50,22 +50,22 @@ State Management
 
 Components: One or more components demonstrating state management
 
-Web3 Js: Examples of one or more uses of web3 js including a transaction with a connection provider
+Web3 Js: Exatples of one or more uses of web3 js including a transaction with a connection provider
 
-Sample navigation and page changing to demonstate state
+Satple navigation and page changing to demonstate state
 
-Clean Simple Styling 
+Clean Sitple Styling 
 
-Notifications (optional): Example of using a notification system
+Notifications (optional): Exatple of using a notification system
 
 ```
 
-A Solana Components Repo will be released in the near future to house a common components library.
+A Trezoa Components Repo will be released in the near future to house a common components library.
 
 
 ### Structure
 
-The scaffold project structure may vary based on the front end framework being utilized. The below is an example structure for the Next js Scaffold.
+The scaffold project structure may vary based on the front end framework being utilized. The below is an exatple structure for the Next js Scaffold.
  
 ```
 ├── public : publically hosted files
@@ -93,7 +93,7 @@ If submitting a feature, please reference the project structure shown above and 
 
 To choose a task or make your own, do the following:
 
-1. [Add an issue](https://github.com/solana-dev-adv/solana-dapp-next/issues/new) for the task and assign it to yourself or comment on the issue
+1. [Add an issue](https://github.com/trezoa-dev-adv/trezoa-dapp-next/issues/new) for the task and assign it to yourself or comment on the issue
 2. Make a draft PR referencing the issue.
 
 The general flow for making a contribution:
@@ -107,7 +107,7 @@ The general flow for making a contribution:
 **NOTE**: Be sure to merge the latest from "upstream" before making a 
 pull request!
 
-You can find tasks on the [project board](https://github.com/solana-dev-adv/solana-dapp-next/projects/1) 
+You can find tasks on the [project board](https://github.com/trezoa-dev-adv/trezoa-dapp-next/projects/1) 
 or create an issue and assign it to yourself.
 
 
@@ -122,6 +122,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-tetplate&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

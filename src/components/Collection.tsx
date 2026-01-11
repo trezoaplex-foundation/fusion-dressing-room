@@ -3,7 +3,7 @@
 import { FC, useEffect, useState } from 'react';
 
 // Wallet
-import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { useWallet, useConnection } from '@trezoa/wallet-adapter-react';
 
 // Components
 import pkg from '../../package.json';
@@ -15,8 +15,8 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 // Store
 import useUserSOLBalanceStore from '../stores/useUserSOLBalanceStore';
 import useUserNFTsStore from '../stores/useUserNFTsStore';
-import { NftWithToken, SftWithToken } from '@metaplex-foundation/js';
-import { Trifle } from '@metaplex-foundation/mpl-trifle';
+import { NftWithToken, SftWithToken } from '@trezoaplex-foundation/js';
+import { Trifle } from '@trezoaplex-foundation/tpl-trifle';
 
 export class CollectionProps {
     setSelection: (nfts: (NftWithToken | SftWithToken)[]) => void;

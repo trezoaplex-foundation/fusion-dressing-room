@@ -1,5 +1,5 @@
 import create, { State } from 'zustand'
-import { Connection, PublicKey, LAMPORTS_PER_SOL } from '@solana/web3.js'
+import { Connection, PublicKey, LAMPORTS_PER_TRZ } from '@trezoa/web3.js'
 
 interface UserSOLBalanceStore extends State {
   balance: number;
@@ -15,7 +15,7 @@ const useUserSOLBalanceStore = create<UserSOLBalanceStore>((set, _get) => ({
         publicKey,
         'confirmed'
       );
-      balance = balance / LAMPORTS_PER_SOL;
+      balance = balance / LAMPORTS_PER_TRZ;
     } catch (e) {
       console.log(`error getting balance: `, e);
     }

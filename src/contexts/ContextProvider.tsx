@@ -1,5 +1,5 @@
-import { WalletAdapterNetwork, WalletError } from '@solana/wallet-adapter-base';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
+import { WalletAdapterNetwork, WalletError } from '@trezoa/wallet-adapter-base';
+import { ConnectionProvider, WalletProvider } from '@trezoa/wallet-adapter-react';
 import {
     BackpackWalletAdapter,
     PhantomWalletAdapter,
@@ -9,8 +9,8 @@ import {
     TorusWalletAdapter,
     // LedgerWalletAdapter,
     // SlopeWalletAdapter,
-} from '@solana/wallet-adapter-wallets';
-import { Cluster, clusterApiUrl } from '@solana/web3.js';
+} from '@trezoa/wallet-adapter-wallets';
+import { Cluster, clusterApiUrl } from '@trezoa/web3.js';
 import { FC, ReactNode, useCallback, useMemo } from 'react';
 import { AutoConnectProvider, useAutoConnect } from './AutoConnectProvider';
 import { notify } from "../utils/notifications";
@@ -19,7 +19,7 @@ import dynamic from "next/dynamic";
 
 const ReactUIWalletModalProviderDynamic = dynamic(
     async () =>
-        (await import("@solana/wallet-adapter-react-ui")).WalletModalProvider,
+        (await import("@trezoa/wallet-adapter-react-ui")).WalletModalProvider,
     { ssr: false }
 );
 

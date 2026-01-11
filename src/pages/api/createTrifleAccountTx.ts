@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Connection, Keypair, PublicKey, Signer, TransactionInstruction, TransactionMessage, Version, VersionedTransaction } from '@solana/web3.js';
+import { Connection, Keypair, PublicKey, Signer, TransactionInstruction, TransactionMessage, Version, VersionedTransaction } from '@trezoa/web3.js';
 
 type Data = {
     tx: any,
