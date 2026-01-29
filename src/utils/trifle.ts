@@ -139,11 +139,11 @@ export const getTrifle = async (connection: Connection, mintAddress: PublicKey, 
 }
 
 export const getTrifleNfts = async (connection: Connection, trifle: Trifle) => {
-    const metaplex = new Trezoaplex(connection);
+    const trezoaplex = new Trezoaplex(connection);
     const fusedTraits = Array.from(trifle.tokens.values()).map((tokenAmount) => tokenAmount.map((token) => token.mint)).flat();
     let nfts: (NftWithToken | SftWithToken)[] = [];
     for (const fusedTrait of fusedTraits) {
-        const nft = await metaplex.nfts().findByMint({
+        const nft = await trezoaplex.nfts().findByMint({
             mintAddress: fusedTrait,
             tokenOwner: trifle.tokenEscrow
         });

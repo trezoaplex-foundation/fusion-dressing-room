@@ -21,11 +21,11 @@ export const AppBar: React.FC = () => {
       <div className="navbar flex h-20 flex-row md:mb-2 shadow-lg bg-black text-neutral-content border-b border-zinc-600 bg-opacity-66">
         <div className="navbar-start align-items-center">
           <div className="hidden sm:inline w-22 h-22 md:p-2 ml-10">
-            <Link href="https://metaplex.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+            <Link href="https://trezoaplex.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
               <div className='flex flex-row ml-1'>
                 <Image
                   src="/metaplex_logo.png"
-                  alt="metaplex icon"
+                  alt="trezoaplex icon"
                   width={300}
                   height={96}
                 />
