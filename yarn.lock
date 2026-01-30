@@ -1181,17 +1181,17 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
-"@project-serum/trz-wallet-adapter@0.2.0":
+"@trezoa-serum/trz-wallet-adapter@0.2.0":
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@project-serum/trz-wallet-adapter/-/trz-wallet-adapter-0.2.0.tgz#e1fa5508bf13110429bf26e10b818182015f2161"
+  resolved "https://registry.yarnpkg.com/@trezoa-serum/trz-wallet-adapter/-/trz-wallet-adapter-0.2.0.tgz#e1fa5508bf13110429bf26e10b818182015f2161"
   integrity sha512-ed7wZwlDqjF88VCq7eHVO8njHqdUkBxBL8WEVOnB47ooLO4btOJt6GBdkKpKqKX86c86LiEROJclcdW8e7kIjg==
   dependencies:
     bs58 "^4.0.1"
     eventemitter3 "^4.0.4"
 
-"@project-serum/trz-wallet-adapter@^0.2.6":
+"@trezoa-serum/trz-wallet-adapter@^0.2.6":
   version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@project-serum/trz-wallet-adapter/-/trz-wallet-adapter-0.2.6.tgz#b4cd25a566294354427c97c26d716112b91a0107"
+  resolved "https://registry.yarnpkg.com/@trezoa-serum/trz-wallet-adapter/-/trz-wallet-adapter-0.2.6.tgz#b4cd25a566294354427c97c26d716112b91a0107"
   integrity sha512-cpIb13aWPW8y4KzkZAPDgw+Kb+DXjCC6rZoH74MGm3I/6e/zKyGnfAuW5olb2zxonFqsYgnv7ev8MQnvSgJ3/g==
   dependencies:
     bs58 "^4.0.1"
@@ -1586,7 +1586,7 @@
   resolved "https://registry.yarnpkg.com/@trezoa/wallet-adapter-sollet/-/wallet-adapter-sollet-0.11.16.tgz#02462f27f29d17e2f869e344ab9f729d5dfa4105"
   integrity sha512-QokMgSSTNbPvF78pn2Vx3xW5Ds4i2KRG6Dr6PpRvUw0t1eZ+Agh+GiQZ74Xb/pPCMDwFxhfeyebH0llJNa98/w==
   dependencies:
-    "@project-serum/trz-wallet-adapter" "^0.2.6"
+    "@trezoa-serum/trz-wallet-adapter" "^0.2.6"
     "@trezoa/wallet-adapter-base" "^0.9.22"
 
 "@trezoa/wallet-adapter-solong@^0.9.17":
@@ -1790,7 +1790,7 @@
   resolved "https://registry.yarnpkg.com/@trzflare-wallet/sdk/-/sdk-1.2.0.tgz#3ba412f316cc6ea324679cd6233d363296770ead"
   integrity sha512-J3KZJdeYJ2R7jPHa0F53iCtkQEdcD1j7yeFQ4oa6Kk6gU1MOqSEWZxrr56sVDKWuPT/gunzEXGrgcwjd7nxwjg==
   dependencies:
-    "@project-serum/trz-wallet-adapter" "0.2.0"
+    "@trezoa-serum/trz-wallet-adapter" "0.2.0"
     bs58 "^4.0.1"
     eventemitter3 "^4.0.7"
     uuid "^8.3.2"
@@ -6512,7 +6512,7 @@ salmon-adapter-sdk@^1.1.1:
   resolved "https://registry.yarnpkg.com/salmon-adapter-sdk/-/salmon-adapter-sdk-1.1.1.tgz#d5fdd2d27b1a6c58e38c188c977eeeeface8b20c"
   integrity sha512-28ysSzmDjx2AbotxSggqdclh9MCwlPJUldKkCph48oS5Xtwu0QOg8T9ZRHS2Mben4Y8sTq6VvxXznKssCYFBJA==
   dependencies:
-    "@project-serum/trz-wallet-adapter" "^0.2.6"
+    "@trezoa-serum/trz-wallet-adapter" "^0.2.6"
     eventemitter3 "^4.0.7"
 
 scheduler@^0.19.1:

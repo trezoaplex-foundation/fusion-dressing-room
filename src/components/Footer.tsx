@@ -37,7 +37,7 @@ export const Footer: FC = () => {
                                     ></path>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/trezoa-labs"  type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                                <a href="https://github.com/trezoa-team"  type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                                     <svg aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
@@ -91,7 +91,7 @@ export const Footer: FC = () => {
                                 <Link href="https://github.com/trezoa-mobile/trezoa-mobile-stack-sdk" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Mobile SDK
                                 </Link>
-                                <Link href="https://github.com/trezoa-labs/trezoa-pay" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://github.com/trezoa-team/trezoa-pay" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Pay SDK
                                 </Link>
                                 <Link href="https://trezoacookbook.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
