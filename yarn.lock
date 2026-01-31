@@ -1581,9 +1581,9 @@
     "@trezoa/wallet-adapter-base" "^0.9.22"
     "@trzflare-wallet/sdk" "^1.2.0"
 
-"@trezoa/wallet-adapter-sollet@^0.11.16":
+"@trezoa/wallet-adapter-trzlet@^0.11.16":
   version "0.11.16"
-  resolved "https://registry.yarnpkg.com/@trezoa/wallet-adapter-sollet/-/wallet-adapter-sollet-0.11.16.tgz#02462f27f29d17e2f869e344ab9f729d5dfa4105"
+  resolved "https://registry.yarnpkg.com/@trezoa/wallet-adapter-trzlet/-/wallet-adapter-trzlet-0.11.16.tgz#02462f27f29d17e2f869e344ab9f729d5dfa4105"
   integrity sha512-QokMgSSTNbPvF78pn2Vx3xW5Ds4i2KRG6Dr6PpRvUw0t1eZ+Agh+GiQZ74Xb/pPCMDwFxhfeyebH0llJNa98/w==
   dependencies:
     "@trezoa-serum/trz-wallet-adapter" "^0.2.6"
@@ -1698,7 +1698,7 @@
     "@trezoa/wallet-adapter-sky" "^0.1.14"
     "@trezoa/wallet-adapter-slope" "^0.5.20"
     "@trezoa/wallet-adapter-trzflare" "^0.6.24"
-    "@trezoa/wallet-adapter-sollet" "^0.11.16"
+    "@trezoa/wallet-adapter-trzlet" "^0.11.16"
     "@trezoa/wallet-adapter-solong" "^0.9.17"
     "@trezoa/wallet-adapter-spot" "^0.1.14"
     "@trezoa/wallet-adapter-strike" "^0.1.12"
